@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?mso-application progid="Excel.Sheet" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" >
+<DocumentProperties xmlns:o="urn:schemas-microsoft-com:office:office" >
+<Author>TagAnywhere</Author>
+<LastAuthor>TagAnywhere</LastAuthor>
+<Created>06/17/2025 14:20:30</Created>
+<LastSaved>06/17/2025 14:20:30</LastSaved>
+<Company>Season7</Company>
+<Version>12.00</Version>
+</DocumentProperties>
+<Worksheet ss:Name="Sheet1" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<Table>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Name</Data></Cell>
+<Cell><Data ss:Type="String">Email</Data></Cell>
+<Cell><Data ss:Type="String">Location</Data></Cell>
+<Cell><Data ss:Type="String">Distance</Data></Cell>
+<Cell><Data ss:Type="String">Unit</Data></Cell>
+<Cell><Data ss:Type="String">Local Time</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 3</Data></Cell>
+<Cell><Data ss:Type="String">2.093</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 8:01:35 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.011</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:31:19 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.016</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:23:03 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:21:22 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:21:02 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:20:52 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.021</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:17:22 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.021</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:16:59 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.021</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:16:53 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:16:13 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:16:00 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:15:34 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:12:43 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:11:13 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:10:50 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:10:09 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:09:05 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 7:07:29 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 6:58:00 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:30:53 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.002</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:29:12 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.003</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:28:19 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.003</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:27:50 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.003</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:27:28 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.005</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:27:06 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">0.003</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:25:40 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:25:07 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:24:32 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">NaN</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:23:39 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:22:32 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:18:40 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:18:09 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:01:10 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 5:00:35 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 4:47:41 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 4:45:46 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 4:45:01 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 4:43:31 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 4:30:45 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 4:30:01 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 4:15:46 AM</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Kim</Data></Cell>
+<Cell><Data ss:Type="String">HKIM@SZN7.COM</Data></Cell>
+<Cell><Data ss:Type="String">Gate 1</Data></Cell>
+<Cell><Data ss:Type="String">2.090</Data></Cell>
+<Cell><Data ss:Type="String">K</Data></Cell>
+<Cell><Data ss:Type="String">6/16/2025 1:56:02 AM</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

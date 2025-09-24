@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?mso-application progid="Excel.Sheet" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" >
+<DocumentProperties xmlns:o="urn:schemas-microsoft-com:office:office" >
+<Author>SkyLiteProject</Author>
+<LastAuthor>SkyLiteProject</LastAuthor>
+<Created>07/01/2025 21:07:11</Created>
+<LastSaved>07/01/2025 21:07:11</LastSaved>
+<Company>Season7</Company>
+<Version>12.00</Version>
+</DocumentProperties>
+<Worksheet ss:Name="Sheet1" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<Table>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">Reference Area</Data></Cell>
+<Cell><Data ss:Type="String">FileRefId</Data></Cell>
+<Cell><Data ss:Type="String">File Name</Data></Cell>
+<Cell><Data ss:Type="String">File GUID</Data></Cell>
+<Cell><Data ss:Type="String">Uploaded</Data></Cell>
+<Cell><Data ss:Type="String">By</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">XysBulletinEV</Data></Cell>
+<Cell><Data ss:Type="String">C5C46C84-9D6C-43DD-9D2E-D92FF858BF7A</Data></Cell>
+<Cell><Data ss:Type="String">Broker Pocket 2025.pdf</Data></Cell>
+<Cell><Data ss:Type="String">C:\SkyCore\skyliteproject\data\6927fcc61d6b4add96801008a1bae4ac.pdf</Data></Cell>
+<Cell><Data ss:Type="String">6/30/2025 7:20:33 PM</Data></Cell>
+<Cell><Data ss:Type="String">Hyun Kim</Data></Cell>
+<Cell><Data ss:Type="String">Delete</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">XysBulletinEV</Data></Cell>
+<Cell><Data ss:Type="String">1955ED63-3A03-4DAB-9815-42BA77AAFA2B</Data></Cell>
+<Cell><Data ss:Type="String">CRMManual.pdf</Data></Cell>
+<Cell><Data ss:Type="String">C:\SkyCore\skyliteproject\data\c8f2ca753ced4ff58435f862f81409b9.pdf</Data></Cell>
+<Cell><Data ss:Type="String">6/30/2025 7:22:02 PM</Data></Cell>
+<Cell><Data ss:Type="String">Hyun Kim</Data></Cell>
+<Cell><Data ss:Type="String">Delete</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">XysBulletinEV</Data></Cell>
+<Cell><Data ss:Type="String">1955ED63-3A03-4DAB-9815-42BA77AAFA2B</Data></Cell>
+<Cell><Data ss:Type="String">Development Statuses v1.pdf</Data></Cell>
+<Cell><Data ss:Type="String">C:\SkyCore\skyliteproject\data\7d3dfa0ce25b4f6ba06b03004a7d2b56.pdf</Data></Cell>
+<Cell><Data ss:Type="String">6/30/2025 7:22:02 PM</Data></Cell>
+<Cell><Data ss:Type="String">Hyun Kim</Data></Cell>
+<Cell><Data ss:Type="String">Delete</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">XysBulletinEV</Data></Cell>
+<Cell><Data ss:Type="String">8167EB74-F390-4304-AB3D-1E566B55B339</Data></Cell>
+<Cell><Data ss:Type="String">InterscopeUserManual.pdf</Data></Cell>
+<Cell><Data ss:Type="String">C:\SkyCore\skyliteproject\data\c51d9ee4315445a2bda9e46acc473406.pdf</Data></Cell>
+<Cell><Data ss:Type="String">6/30/2025 7:26:40 PM</Data></Cell>
+<Cell><Data ss:Type="String">Hyun Kim</Data></Cell>
+<Cell><Data ss:Type="String">Delete</Data></Cell>
+</Row>
+<Row ss:AutoFitHeight="0">
+<Cell><Data ss:Type="String">XysBulletinEV</Data></Cell>
+<Cell><Data ss:Type="String">8167EB74-F390-4304-AB3D-1E566B55B339</Data></Cell>
+<Cell><Data ss:Type="String">TagAnywhere Manual.pdf</Data></Cell>
+<Cell><Data ss:Type="String">C:\SkyCore\skyliteproject\data\02172da24fe842a0a31c298a029050a2.pdf</Data></Cell>
+<Cell><Data ss:Type="String">6/30/2025 7:26:40 PM</Data></Cell>
+<Cell><Data ss:Type="String">Hyun Kim</Data></Cell>
+<Cell><Data ss:Type="String">Delete</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

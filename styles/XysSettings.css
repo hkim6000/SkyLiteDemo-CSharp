@@ -1,0 +1,9 @@
+﻿.mnulabel {
+    color:#294353;
+    font-size:20px;
+    cursor:pointer;
+    margin-left:10px;
+}
+.mnulabel:hover {
+    color:#ff6600;
+}

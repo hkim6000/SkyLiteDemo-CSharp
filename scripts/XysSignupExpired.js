@@ -1,0 +1,4 @@
+﻿function NavXysSignup() {
+    $WaitOn();
+    $ApiRequest();
+}
