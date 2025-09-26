@@ -104,7 +104,7 @@ public class XysUserEV : WebBase
         text3.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
 
         CheckBox chk1 = new CheckBox(Translator.Format("mfa"));
-        chk1.Checks.AddItem(ViewPart.Field("UserOTP").name, "1", string.Empty, Convert.ToInt32(ViewPart.Field("UserOTP").value) == 1 ? true : false);
+        chk1.Checks.AddItem(ViewPart.Field("UserOTP").name, "1", string.Empty, ValC(ViewPart.Field("UserOTP").value) == 1 ? true : false);
         chk1.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
 
         Dropdown sel3 = new Dropdown(Translator.Format("levelcode"), ViewPart.Field("LevelCode").name);
@@ -246,9 +246,9 @@ public class XysUserEV : WebBase
         List<System.Data.SqlClient.SqlParameter> SqlParams = new List<System.Data.SqlClient.SqlParameter>();
         SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserId", Value = ViewPart.Field("UserId").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserPwd", Value = Encryptor.EncryptData(ViewPart.Field("UserPwd").value), SqlDbType = SqlDbType.NVarChar });
-        SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserOTP", Value = Convert.ToInt32(ViewPart.Field("UserOTP").value), SqlDbType = SqlDbType.Int });
-        SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserStatus", Value = Convert.ToInt32(ViewPart.Field("UserStatus").value), SqlDbType = SqlDbType.Int });
-        SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@LevelCode", Value = Convert.ToInt32(ViewPart.Field("LevelCode").value), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserOTP", Value = ValC(ViewPart.Field("UserOTP").value), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserStatus", Value = ValC(ViewPart.Field("UserStatus").value), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@LevelCode", Value = ValC(ViewPart.Field("LevelCode").value), SqlDbType = SqlDbType.Int });
         SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserEmail", Value = ViewPart.Field("UserEmail").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserName", Value = ViewPart.Field("UserName").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new System.Data.SqlClient.SqlParameter { ParameterName = "@UserPhone", Value = ViewPart.Field("UserPhone").value, SqlDbType = SqlDbType.NVarChar });

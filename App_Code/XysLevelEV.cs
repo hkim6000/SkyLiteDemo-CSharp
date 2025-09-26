@@ -166,7 +166,7 @@ public class XysLevelEV : WebBase
         sqlParams.Add(new SqlParameter { ParameterName = "@LevelCode", Value = ViewPart.Field("LevelCode").value, SqlDbType = SqlDbType.NVarChar });
         sqlParams.Add(new SqlParameter { ParameterName = "@LevelName", Value = ViewPart.Field("LevelName").value, SqlDbType = SqlDbType.NVarChar });
         sqlParams.Add(new SqlParameter { ParameterName = "@LevelDesc", Value = ViewPart.Field("LevelDesc").value, SqlDbType = SqlDbType.NVarChar });
-        sqlParams.Add(new SqlParameter { ParameterName = "@LevelFlag", Value = Convert.ToInt32(ViewPart.Field("LevelFlag").value).ToString(), SqlDbType = SqlDbType.Int });
+        sqlParams.Add(new SqlParameter { ParameterName = "@LevelFlag", Value = ValC(ViewPart.Field("LevelFlag").value).ToString(), SqlDbType = SqlDbType.Int });
         sqlParams.Add(new SqlParameter { ParameterName = "@SYSUSR", Value = AppKey.UserId, SqlDbType = SqlDbType.NVarChar });
 
         return PutData(SqlWithParams(sql, sqlParams));

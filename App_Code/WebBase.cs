@@ -208,7 +208,7 @@ public class WebBase : WebPage
                       " select count(*) from XysPage where PageUse=1 and dbo.XF_RolePage(@roleid,PageId) = 1 and PageName = @pagename ";
 
         string tcnt = SQLData.SQLFieldValue(SSQL);
-        return Convert.ToInt32(tcnt) == 0 ? false : true;
+        return ValC(tcnt) == 0 ? false : true;
     }
 
     protected internal List<ViewMethod> ViewMethods(string PageType = "")

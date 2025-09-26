@@ -11,7 +11,7 @@ public class XysDictMV : WebBase
         {
             Id = "DataGrid",
             Name = "DataGrid",
-            CurrentPageNo = (Convert.ToInt32(ParamValue("DataGrid_PageNo")) == 0 ? 1 : Convert.ToInt32(ParamValue("DataGrid_PageNo"))),
+            CurrentPageNo = Convert.ToInt32(ValC(ParamValue("DataGrid_PageNo")) == 0 ? 1 : ValC(ParamValue("DataGrid_PageNo"))),
             LinesPerPage = 100,
             ExcludeDownloadColumns = new int[] { 0 },
             TDictionary = HtmlTranslator.TDictionary,

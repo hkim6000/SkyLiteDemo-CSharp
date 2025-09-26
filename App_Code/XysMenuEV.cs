@@ -250,8 +250,8 @@ public class XysMenuEV : WebBase
         SqlParams.Add(new SqlParameter { ParameterName = "@MenuCtl", Value = ViewPart.Field("MenuCtl").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new SqlParameter { ParameterName = "@MenuType", Value = ViewPart.Field("MenuType").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new SqlParameter { ParameterName = "@MenuClass", Value = ViewPart.Field("MenuClass").value, SqlDbType = SqlDbType.NVarChar });
-        SqlParams.Add(new SqlParameter { ParameterName = "@MenuOrder", Value = Convert.ToInt32(ViewPart.Field("MenuOrder").value).ToString(), SqlDbType = SqlDbType.Int });
-        SqlParams.Add(new SqlParameter { ParameterName = "@MenuUse", Value = Convert.ToInt32(ViewPart.Field("MenuUse").value).ToString(), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new SqlParameter { ParameterName = "@MenuOrder", Value = ValC(ViewPart.Field("MenuOrder").value).ToString(), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new SqlParameter { ParameterName = "@MenuUse", Value = ValC(ViewPart.Field("MenuUse").value).ToString(), SqlDbType = SqlDbType.Int });
         SqlParams.Add(new SqlParameter { ParameterName = "@SYSUSR", Value = AppKey.UserId, SqlDbType = SqlDbType.NVarChar });
 
         return PutData(SqlWithParams(SQL, SqlParams));

@@ -100,7 +100,7 @@ public class XysLangEV : WebBase
         CheckBox chk1 = new CheckBox(Translator.Format("use"));
         if (ViewPart.Mode == ViewMode.Edit)
         {
-            chk1.Checks.AddItem(ViewPart.Field("SD03").name, "1", string.Empty, Convert.ToInt32(ViewPart.Field("SD03").value) == 1 ? true : false);
+            chk1.Checks.AddItem(ViewPart.Field("SD03").name, "1", string.Empty, ValC(ViewPart.Field("SD03").value) == 1 ? true : false);
         }
         else
         {

@@ -187,7 +187,7 @@ public class XysBulletinEV : WebBase
         }
 
         List<SqlParameter> SqlParams = new List<SqlParameter>();
-        SqlParams.Add(new SqlParameter { ParameterName = "@BltnId", Value = Convert.ToInt32(ViewPart.Field("BltnId").value), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new SqlParameter { ParameterName = "@BltnId", Value = ValC(ViewPart.Field("BltnId").value), SqlDbType = SqlDbType.Int });
         SqlParams.Add(new SqlParameter { ParameterName = "@BltnTitle", Value = ViewPart.Field("BltnTitle").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new SqlParameter { ParameterName = "@BltnMemo", Value = ViewPart.Field("BltnMemo").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new SqlParameter { ParameterName = "@CreatedBy", Value = ViewPart.Field("CreatedBy").value, SqlDbType = SqlDbType.NVarChar });
@@ -238,7 +238,7 @@ public class XysBulletinEV : WebBase
         };
 
         List<SqlParameter> SqlParams = new List<SqlParameter>();
-        SqlParams.Add(new SqlParameter { ParameterName = "@BltnId", Value = Convert.ToInt32(ViewPart.Field("BltnId").value), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new SqlParameter { ParameterName = "@BltnId", Value = ValC(ViewPart.Field("BltnId").value), SqlDbType = SqlDbType.Int });
 
         return PutData(SqlWithParams(SQL, SqlParams));
     }

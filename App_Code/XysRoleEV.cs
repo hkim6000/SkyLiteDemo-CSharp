@@ -183,7 +183,7 @@ public class XysRoleEV : WebBase
         DataTable dt = SQLData.SQLDataTable(" select count(*) from XysUserInfo where RoleId = '" + ViewPart.Field("RoleId").value + "'", ref emsg);
         if (dt != null && dt.Rows.Count > 0)
         {
-            if (System.Convert.ToInt32(dt.Rows[0][0].ToString()) > 0)
+            if (ValC(dt.Rows[0][0].ToString()) > 0)
             {
                 rtnvlu = true;
             }

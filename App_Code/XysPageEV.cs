@@ -180,9 +180,9 @@ public class XysPageEV : WebBase
         SqlParams.Add(new SqlParameter { ParameterName = "@PageName", Value = ViewPart.Field("PageName").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new SqlParameter { ParameterName = "@PageGroup", Value = ViewPart.Field("PageGroup").value, SqlDbType = SqlDbType.NVarChar });
         SqlParams.Add(new SqlParameter { ParameterName = "@PageDesc", Value = ViewPart.Field("PageDesc").value, SqlDbType = SqlDbType.NVarChar });
-        SqlParams.Add(new SqlParameter { ParameterName = "@PageOrder", Value = Convert.ToInt32(ViewPart.Field("PageOrder").value).ToString(), SqlDbType = SqlDbType.Int });
-        SqlParams.Add(new SqlParameter { ParameterName = "@PageMenu", Value = Convert.ToInt32(ViewPart.Field("PageMenu").value).ToString(), SqlDbType = SqlDbType.Int });
-        SqlParams.Add(new SqlParameter { ParameterName = "@PageUse", Value = Convert.ToInt32(ViewPart.Field("PageUse").value).ToString(), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new SqlParameter { ParameterName = "@PageOrder", Value = ValC(ViewPart.Field("PageOrder").value).ToString(), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new SqlParameter { ParameterName = "@PageMenu", Value = ValC(ViewPart.Field("PageMenu").value).ToString(), SqlDbType = SqlDbType.Int });
+        SqlParams.Add(new SqlParameter { ParameterName = "@PageUse", Value = ValC(ViewPart.Field("PageUse").value).ToString(), SqlDbType = SqlDbType.Int });
         SqlParams.Add(new SqlParameter { ParameterName = "@SYSUSR", Value = AppKey.UserId, SqlDbType = SqlDbType.NVarChar });
 
         return PutData(SqlWithParams(SQL, SqlParams));

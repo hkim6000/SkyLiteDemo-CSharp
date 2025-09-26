@@ -290,7 +290,7 @@ public class XysSignup : WebPage
         DataTable dt = SQLData.SQLDataTable(SQLText.ToString(), ref emsg);
         if (emsg == string.Empty && dt != null && dt.Rows.Count != 0)
         {
-            if (Convert.ToInt32(dt.Rows[0][0].ToString()) == 1)
+            if (ValC(dt.Rows[0][0].ToString()) == 1)
             {
                 rtnvlu = true;
             }
