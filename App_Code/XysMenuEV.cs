@@ -125,7 +125,7 @@ public class XysMenuEV : WebBase
         CheckBox chk1 = new CheckBox(Translator.Format("use"));
         if (ViewPart.Mode == ViewMode.Edit)
         {
-            chk1.Checks.AddItem(ViewPart.Field("MenuUse").name, "1", string.Empty, Convert.ToInt32(ViewPart.Field("MenuUse").value) == 1);
+            chk1.Checks.AddItem(ViewPart.Field("MenuUse").name, "1", string.Empty, (ValC(ViewPart.Field("MenuUse").value) == 1) ? true : false);
         }
         else
         {

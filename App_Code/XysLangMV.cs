@@ -12,7 +12,7 @@ public class XysLangMV : WebBase
         {
             Id = "DataGrid",
             Name = "DataGrid",
-            CurrentPageNo = Convert.ToInt32(ParamValue("DataGrid_PageNo")) == 0 ? 1 : Convert.ToInt32(ParamValue("DataGrid_PageNo")),
+            CurrentPageNo = Convert.ToInt32(ValC(ParamValue("DataGrid_PageNo")) == 0 ? 1 : ValC(ParamValue("DataGrid_PageNo"))),
             LinesPerPage = 50,
             ExcludeDownloadColumns = new int[] { 0 },
             TDictionary = this.HtmlTranslator.TDictionary,
@@ -29,7 +29,7 @@ public class XysLangMV : WebBase
                     Translator.Format("locale"),
                     Translator.Format("inuse")
                 },
-                Filters = string.IsNullOrEmpty(ParamValue("DataGrid_Filter")) ? "CODE='OPTION' and CODE+SD01+SD02+SD03+SD04+SD05+SD06+SD07 like '%%' " : ParamValue("DataGrid_Filter")
+                Filters = string.IsNullOrEmpty(ParamValue("DataGrid_Filter")) ? "CODE=N'ISO639' and CODE+SD01+SD02+SD03+SD04+SD05+SD06+SD07 like '%%' " : ParamValue("DataGrid_Filter")
             }
         };
     }

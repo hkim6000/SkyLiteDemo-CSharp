@@ -92,11 +92,11 @@ public class XysPageEV : WebBase
         text3.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
 
         CheckBox chk1 = new CheckBox(Translator.Format("menu"));
-        chk1.Checks.AddItem(ViewPart.Field("PageMenu").name, "1", string.Empty, Convert.ToInt32(ViewPart.Field("PageMenu").value) == 1);
+        chk1.Checks.AddItem(ViewPart.Field("PageMenu").name, "1", string.Empty, (ValC(ViewPart.Field("PageMenu").value) == 1) ? true : false);
         chk1.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
 
         CheckBox chk2 = new CheckBox(Translator.Format("use"));
-        chk2.Checks.AddItem(ViewPart.Field("PageUse").name, "1", string.Empty, Convert.ToInt32(ViewPart.Field("PageUse").value) == 1);
+        chk2.Checks.AddItem(ViewPart.Field("PageUse").name, "1", string.Empty,(ValC(ViewPart.Field("PageUse").value) == 1) ? true : false);
         chk2.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
 
         HtmlElementBox elmBox = new HtmlElementBox();

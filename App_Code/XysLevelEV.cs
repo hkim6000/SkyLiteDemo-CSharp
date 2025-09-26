@@ -88,7 +88,7 @@ public class XysLevelEV : WebBase
         text2.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
          
         CheckBox chk1 = new CheckBox(Translator.Format("flag"));
-        chk1.Checks.AddItem(ViewPart.Field("LevelFlag").name, "1", string.Empty, (Convert.ToInt32(ViewPart.Field("LevelFlag").value) == 1));
+        chk1.Checks.AddItem(ViewPart.Field("LevelFlag").name, "1", string.Empty, (ValC(ViewPart.Field("LevelFlag").value) == 1) ? true : false);
         chk1.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
          
         HtmlElementBox elmBox = new HtmlElementBox();
