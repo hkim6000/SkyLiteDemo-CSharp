@@ -310,7 +310,7 @@ public class XysMenuEV : WebBase
         HtmlTag mnu = new HtmlTag();
         mnu.InnerText = Translator.Format(tag);
         mnu.SetAttribute(HtmlAttributes.@class, styleclass);
-        mnu.SetAttribute(HtmlEvents.onclick, ByPassCall(method, @params));
+        mnu.SetAttribute(HtmlEvents.onclick, ByPassCall(method, @params,false));
         return mnu;
     }
 
@@ -319,7 +319,7 @@ public class XysMenuEV : WebBase
         @params = !string.IsNullOrEmpty(@params.Trim()) ? @params.Trim() : "{params}";
         Button btn = new Button(Translator.Format(tag), Button.ButtonTypes.Button);
         btn.SetAttribute(HtmlAttributes.@class, styleclass);
-        btn.SetAttribute(HtmlEvents.onclick, ByPassCall(method, @params));
+        btn.SetAttribute(HtmlEvents.onclick, ByPassCall(method, @params, false));
         btn.Wrap.SetStyle(HtmlStyles.paddingLeft, "4px");
         return btn;
     }
